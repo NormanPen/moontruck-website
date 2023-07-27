@@ -1,9 +1,10 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./sites/Home";
-import Mail from "./sites/Mail";
+
 import Imprint from "./sites/Imprint";
 import Privacy from "./sites/Privacy";
 import RootsLayout from "./sites/RootsLayout";
+import Updates from "./sites/Updates";
 
 
 
@@ -14,12 +15,12 @@ const router = createBrowserRouter([
     element: <RootsLayout />,
     children: [
       { path: '/', element: <Home/>},
-      { path: '/mail', element: <Mail/>},
+      { path: '/updates', element: <Updates/>},
       { path: '/impressum', element: <Imprint/>},
       { path: '/dsgvo', element: <Privacy/>}
     ],
   },
-  
+
 ]);
 
 

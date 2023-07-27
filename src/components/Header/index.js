@@ -1,18 +1,25 @@
-import header from "../../images/header.png";
+
+import BtnLink from "../Buttons/BtnLink";
 
 function Header() {
     return (
       <header>
-            <div>
-            <img
-					src={header}
-					alt="Moontruck"
-					className=" w-full"
-				/>
-            </div>
+        <div className="bg-header-image bg-cover bg-center h-screen flex justify-center">
+
+
+        <div className="self-end mb-16">
+
+        <BtnLink to="/updates">UPDATES ERHALTEN</BtnLink>
+        </div>
+
+
+
+        </div>
+
+
+
       </header>
     );
   }
-  
+
   export default Header;
-  

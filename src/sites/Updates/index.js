@@ -1,10 +1,9 @@
-function Mail() {
+function Updates() {
     return (
       <h1 className="text-3xl font-bold underline">
-        Mail
+        Updates
       </h1>
     );
   }
-  
-  export default Mail;
-  
+
+  export default Updates;
