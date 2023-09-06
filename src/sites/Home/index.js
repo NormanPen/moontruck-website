@@ -2,23 +2,14 @@ import Header from '../../components/Header';
 import TeaserMain from '../../components/TeaserMain';
 import TeaserSec from '../../components/TeaserSec';
 import TeaserTrd from '../../components/TeaserTrd';
-import ImageSlider from '../../components/ImageSlider';
 import VideoPlayer from '../../components/VideoPlayer';
 
-import teaserImgMain from '../../images/truck1.png';
-import teaserImgSec from '../../images/truck2.png';
-import teaserImgTrd from '../../images/truck_small1.png';
+import teaserImgMain from '../../images/11.png';
+import teaserImgSec from '../../images/2.png';
+import teaserImgTrd from '../../images/6.png';
 import videoFile from '../../videos/video1.mp4';
 
 function Home() {
-    const images = [
-        'https://www.tesla.com/xNVh4yUEc3B9/10_Desktop.jpg',
-        'https://www.tesla.com/xNVh4yUEc3B9/07_Desktop.jpg',
-        'https://www.tesla.com/xNVh4yUEc3B9/08_Desktop.jpg',
-        'https://www.tesla.com/xNVh4yUEc3B9/09_Desktop.jpg',
-        'https://www.tesla.com/xNVh4yUEc3B9/10_Desktop.jpg',
-    ];
-
     return (
         <>
             <Header />
@@ -43,12 +34,6 @@ function Home() {
                 Cybertruck ein schlag- und stoßfestes Außenskelett der
                 Sonderklasse und seinen Insassen maximalen Schutz.
             </TeaserSec>
-
-            <ImageSlider>
-                {images.map((imageUrl, i) => (
-                    <img key={i} src={imageUrl} />
-                ))}
-            </ImageSlider>
 
             <VideoPlayer heading='LEISTUNG UND EFFIZIENZ' videoFile={videoFile}>
                 Eine neue Klasse von Stärke, Geschwindigkeit und Vielseitigkeit
