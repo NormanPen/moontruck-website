@@ -5,7 +5,8 @@ function Header() {
         <header>
             <div className='bg-header-image bg-cover bg-center h-screen flex justify-center'>
                 <div className='self-end mb-16 cursor-pointe'>
-                    <BtnScrollDwn to='ENDECKEN'>Jetzt entdecken!</BtnScrollDwn>
+                    <h1>MOONTRUCK</h1>
+
                 </div>
             </div>
         </header>

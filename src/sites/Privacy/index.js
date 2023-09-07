@@ -1,10 +1,12 @@
+import DSGVO from "../../components/DSGVO";
+
+
 function Privacy() {
     return (
-      <h1 className="text-3xl font-bold underline">
-        DGSVO
-      </h1>
+      <div>
+        <DSGVO />
+      </div>
     );
   }
-  
+
   export default Privacy;
-  

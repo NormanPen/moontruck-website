@@ -1,6 +1,6 @@
 import React, {useRef, useEffect} from 'react';
 
-import videoFile from '../../videos/video1.mp4'; // Passe den Pfad zum Video entsprechend an
+//import videoFile from '../../videos/video1.mp4'; // Passe den Pfad zum Video entsprechend an
 
 const VideoPlayer = (props) => {
     const videoRef = useRef(null);
@@ -27,14 +27,14 @@ const VideoPlayer = (props) => {
     }, []);
 
     return (
-        <article>
+        <article className='VIDEO text-white max-w-screen-lg mx-auto mt-28'>
             <video ref={videoRef} controls={false} autoPlay muted>
                 <source src={props.videoFile} type='video/mp4' />
                 Your browser does not support the video element.
             </video>
-            <div className='text-white max-w-screen-md mx-auto'>
-                <h1>{props.heading}</h1>
-                <p>{props.children}</p>
+            <div className='mt-16 mb-32 max-w-xl mx-auto'>
+                <h1 className='mb-4'>{props.heading}</h1>
+                <p className=''>{props.children}</p>
             </div>
         </article>
     );

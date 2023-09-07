@@ -2,7 +2,9 @@ import React from 'react';
 
 const Mailchimp = () => {
     return (
-        <div className='mt-8 bg-black text-white'>
+        <div className='mt-8  text-white'>
+            <h2 className='text-2xl font-bold'>Don't miss the news</h2>
+            <h1 className='text-3xl font-bold '>Subscribe to the Newsletter</h1>
             <div id='mc_embed_shell '>
                 <div id='mc_embed_signup'>
                     <form
