@@ -2,7 +2,7 @@ import Maps from '../../components/Maps';
 
 function Imprint() {
     return (
-        <section className='Contact bg-nope-mellow dark:bg-nope-grey-middle dark:text-white  rounded-lg drop-shadow-2xl shadow-2xl pb-8'>
+        <section className='Contact bg-nope-mellow dark:bg-nope-grey-middle  rounded-lg drop-shadow-2xl shadow-2xl pb-8 bg-neutral-900'>
             <address className='text-white pt-9 pl-6'>
                 <a
                     className=''
